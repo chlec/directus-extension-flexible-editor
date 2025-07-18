@@ -15,6 +15,7 @@ import HorizontalRule from "@tiptap/extension-horizontal-rule";
 import Link from "@tiptap/extension-link";
 import Bold from "@tiptap/extension-bold";
 import Italic from "@tiptap/extension-italic";
+import Underline from "@tiptap/extension-underline";
 import Strike from "@tiptap/extension-strike";
 import Code from "@tiptap/extension-code";
 import { Subscript } from "@tiptap/extension-subscript";
@@ -38,6 +39,7 @@ export default [
     Blockquote,
     HorizontalRule,
     Link,
+    Underline,
     Bold,
     Italic,
     Strike,
